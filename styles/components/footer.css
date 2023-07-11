@@ -7,3 +7,57 @@
   letter-spacing: 0.2em;
   user-select: none;
 }
+.icons__links{
+display: flex;
+align-items: center;
+gap: 3rem;
+justify-content: center;
+margin-bottom:3rem ;
+}
+
+.icon__link i{
+font-size: var(--size-xl);
+color: var(--clr-btn);
+}
+/* xs */
+@media (min-width: 475px) {
+  .icon__link i{
+    font-size: var(--size-2xl);
+    
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .icon__link i{
+    font-size: var(--size-3xl);
+    
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .icon__link i{
+    font-size: var(--size-3xl);
+    
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .icon__link i{
+    font-size: var(--size-4xl);
+    
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .icon__link i{
+    font-size: var(--size-5xl);
+    
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
